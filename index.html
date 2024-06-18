@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font_family.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <script async src="js/new-app.js" type="module"></script>
+
+    <title>La Serietúlia</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logo" src="img/logo/LaSerietulia-TR-horizontal.png" alt="Logo de la serietúlia">
+        </header>
+        <div class="tele">
+        <picture>
+            <source srcset="img/victoria-kubiaki-yeFJNtA3604-unsplash1.jpg, img/victoria-kubiaki-yeFJNtA3604-unsplash1@2x.jpg 2x, img/victoria-kubiaki-yeFJNtA3604-unsplash1@3x.jpg 3x">
+            <img src="img/victoria-kubiaki-yeFJNtA3604-unsplash1@3x.jpg" alt="una persona agarrando una televisión que está en blanco y negro">
+        </picture>
+    <section class="telenew">
+            <h1>Maníacs de les sèries? <span> Teniu una cita ineludible.</span></h1>
+            <p class="p1">Els pròxims 22 i 23 de novembre tens una cita que no pots deixar perdre. Passa't a compartir la teva passió pel setè art "de sofà" amb uns convidats excepcionals.</p>
+
+            <form action="submit">
+                <ul class="lista1">
+                    <li>
+                <label for="mail"></label>
+                <input class="news" id="mail" type="email"
+                pattern="^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$" placeholder=""  tabindex="1">
+                <button class="alta" type="submit" >Alta Newsletter</button>
+            </li>
+            <li>
+                <input class="checkbox" type="checkbox" id="check">
+                <label class="checkp" for="check">He llegit i accepto la política de privacitat</label>
+            </li>
+
+            </ul>
+            </form>
+        </section>
+            </div>
+        
+    
+        <section class="festival">
+            <h2 class="festi">Activitats dins del festival</h2>
+            <div class="articles">
+            <article class="actividad">
+                <img src="img/vectors_activitats/taza.svg" alt="taza">
+                <h2>Taules rodones</h2>
+            </article>
+            <article class="actividad">
+                <img src="img/vectors_activitats/projector.svg" alt="proyector">
+                <h2>Projecció de sèries</h2>
+            </article>
+            <article class="actividad">
+                <img src="img/vectors_activitats/debats.svg" alt="dos bocadillos tipicos de comics">
+                <h2>Debats amb els convidats</h2>
+            </article>
+            <article class="actividad">
+                <img src="img/vectors_activitats/idcard.svg" alt="tarjeta">
+                <h2>Serietúlia Pro</h2>
+            </article>
+        </div>
+        </section>
+
+        <section class="convidats">
+            <div class="intro">
+                <h2 class="convi">Convidats de luxe</h2>
+                <p class="convip">Actors, actrius i guionistes convidats a les xerrades i debats en el visionament de capítols emblemàtics que es durà a terme a la Filmoteca.</p>
+                
+            </div>
+            <div id="cards"></div>
+
+        <section class="botones">
+            <h2 class="convi">Les millors sèries</h2>
+            <p class="convip">Troba les sèries que projectarem al festival a la teva plataforma.</p>
+            <ul class="botoon">
+                <li>
+                    <button   class="estilobo"  type="button" id="filtro-todo">Totes</button>
+                </li>
+                <li>
+                    <button  class="estilobo"  type="button" id="filtro-hbo">HBO Max</button>
+                </li>
+                <li>
+                    <button  class="estilobo" type="button" id="filtro-netflix">Netflix</button>
+                </li>
+                <li>
+                    <button class="estilobo"  type="button" id="filtro-filmin">Filmin</button>
+                </li>
+                <li>
+                    <button class="estilobo"  type="button" id="filtro-prime">Prime</button>
+                </li>
+                <li>
+                    <button  class="estilobo" type="button" id="filtro-disney">Disney+</button>
+                </li>
+            </ul>
+        </section>
+        <div class="serieposter">
+           <div class="serie" title="prime">
+            <img class="poster"  src="img/series/the-office.jpg" alt="poster de la serie the office">
+        </div>
+             <div class="serie" title="netflix">
+            <img  class="poster" src="img/series/luther.jpg" alt="poster de la serie luther">
+      
+        </div>
+            <div class="serie" title="hbo">
+            <img class="poster" src="img/series/killing-eve.jpg" alt="poster de la serie killing eve">
+        </div>
+                <div class="serie" title="filmin">
+            <img class="poster" src="img/series/halt-and-catch-fire.jpg" alt="poster de la serie halt and catch fire">
+        </div>
+                <div class="serie" title="hbo">
+            <img class="poster" src="img/series/girls.jpg" alt="poster de la serie girls">
+        </div>
+                <div class="serie" title="prime">
+            <img class="poster" src="img/series/fleabag.jpg" alt="poster de la serie fleabag">
+        </div>
+        <div class="serie" title="filmin">
+            <img class="poster" src="img/series/firefly.jpg" alt="poster de la serie firefly">
+        </div>
+        <div class="serie" title="disney">
+            <img class="poster" src="img/series/castle.jpg" alt="poster de la serie castle">
+        </div>
+        </div>
+
+        <form class="news2" method="post">
+
+
+            <ul class="centrar">
+                <li class="convi">Vols rebre informació?</li>
+                <li>
+            <label for="mail"></label>
+            <input class="caja" id="mail" type="email"
+            pattern="^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$" placeholder=""  tabindex="1">
+            <button class="botong" type="submit" >Alta Newsletter</button>
+        </li>
+        <li class="mover">
+            <input class="box" type="checkbox" id="check">
+            <label class="checkp" for="check">He llegit i accepto la política de privacitat</label>
+        </li>
+
+        </ul>
+        </form>
+
+        <section class="espacio">
+            <h3 class="convi">Espais i dates</h3>
+            <div class="mapa">
+            <img src="img/mapa/Rectangle.jpg" alt="mapa">
+            <address>
+
+                <ul class="direction">
+                    <li class="li1">22 i 23 de novembre</li>
+                    <li class="linegro">Filmoteca de Catalunya</li>
+                    <li>Plaça Salvador Seguí, 1 – 9</li>
+                    <li>08001 Barcelona</li>
+                </ul>
+
+                <ul class="direction">
+                    <li class="linegro">Restaurant «La Monroe»</li>
+                    <li>Plaça Salvador Seguí</li>
+                    <li>08001 Barcelona</li>
+                </ul>
+
+            </address>
+        </div>
+        </section>
+        <footer>
+            <h4 class="convi">Patrocinadors i col·laboradors</h4>
+            <div class="patron" >
+            <img src="img/patrocinadores/estrella-Damm-web 1.svg"alt="logo de estrella daamn">
+            <img src="img/patrocinadores/vichi.svg"alt="logo de vichi catalan">
+        </div>
+        <div class="patron2">
+            <img src="img/patrocinadores/HBOn_alpha_footer-e1530626307174 1.svg" alt="logo HBO">
+            <img src="img/patrocinadores/Netflix_Logo_footer-500x210 1.svg"alt="logo de netflix">
+            <img src="img/patrocinadores/RTVE_footer-500x258 1.svg"alt="logo de rtve">
+            <img src="img/patrocinadores/Logo_iCatFm-500x186 1.svg"alt="logo de icat.fm">
+            <img src="img/patrocinadores/Time-Out_2-500x182.svg"alt="logo de time out">
+        </div>
+        <div class="patron3">
+            <img src="img/patrocinadores/bn_ajuntament.svg"alt="logo de ajuntament de Barcelona">
+            <img src="img/patrocinadores/Logotip_beteve_roig-1-500x136 1.svg"alt="logo de beteve">
+            <img src="img/patrocinadores/CFF_Logo-Negre-RGB-500x115 1.svg"alt="logo de cataluña film">
+            <img src="img/patrocinadores/escac_claim_white 1.svg"alt="logo de esac">
+            <img src="img/patrocinadores/cccb.svg"alt="logo de centre de cultura contemporania de Barcelona">
+        </div>
+        
+        </footer>
+   
+
+    </main>
+    <script src="js/filtro_series.js"></script>
+</body>
+</html>
